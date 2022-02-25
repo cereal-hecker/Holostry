@@ -21,56 +21,55 @@ class MyApp extends StatelessWidget {
                 'images/logo.png',
                 height: 100,
               ),
-              Align(
-                alignment: Alignment.topLeft,
-                child: Padding(
-                  padding: const EdgeInsets.all(15.0),
-                  child: Column(
-                    children: [
-                      Text(
-                        'CHEMISTRY',
-                        textAlign: TextAlign.left,
-                        style: TextStyle(
-                          fontFamily: 'circe',
-                          color: Colors.purple[800],
-                          fontSize: 20,
-                          letterSpacing: 1,
-                          fontWeight: FontWeight.w700,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Padding(
+                    padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                    child: Image.asset(
+                      'images/bandi-swapped.png',
+                      height: 500,
+                    ),
+                  ),
+                  Align(
+                    alignment: Alignment.topCenter,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      crossAxisAlignment: CrossAxisAlignment.end,
+                      children: [
+                        Text(
+                          "CHEMISTRY",
+                          style: TextStyle(
+                              fontSize: 23,
+                              fontWeight: FontWeight.w700,
+                              fontFamily: 'circe'),
+                          textAlign: TextAlign.center,
                         ),
-                      ),
-                      Text(
-                        'out of thin air',
-                        textAlign: TextAlign.left,
-                        style: TextStyle(
-                          fontFamily: 'circe',
-                          color: Colors.deepPurple[200],
-                          fontSize: 20,
-                          letterSpacing: 1,
-                          fontWeight: FontWeight.w700,
+                        Text(
+                          "Out Of Thin Air",
+                          style: TextStyle(fontSize: 12, fontFamily: 'circe'),
+                          textAlign: TextAlign.center,
                         ),
-                      ),
-                    ],
+                        Container(
+                          margin: EdgeInsets.fromLTRB(30, 50, 20, 0),
+                          padding: EdgeInsets.all(5),
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: Colors.deepPurple[100],
+                          ),
+                          child: Padding(
+                            padding: EdgeInsets.all(10.0),
+                            child: FloatingActionButton(
+                              onPressed: () {},
+                              child: Icon(Icons.arrow_forward_ios),
+                              backgroundColor: Colors.purple[400],
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
-                ),
-              ),
-              Align(
-                alignment: Alignment.topLeft,
-                child: Padding(
-                  padding: const EdgeInsets.all(10.0),
-                  child: FloatingActionButton(
-                    onPressed: () {},
-                    child: Icon(Icons.arrow_forward_ios),
-                    backgroundColor: Colors.purple[400],
-                  ),
-                ),
-              ),
-              Expanded(
-                child: Align(
-                  alignment: Alignment.bottomRight,
-                  child: Image.asset(
-                    'images/bandi.png',
-                  ),
-                ),
+                ],
               ),
             ],
           ),
@@ -78,8 +77,3 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
-
-  // void openName() {
-  //   Navigator.pushNamed(context, '/Name');
-  // }
-}
