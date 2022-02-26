@@ -25,17 +25,13 @@ We needed to create 3D carbon compounds and then their holographic videos. A spe
 
 # Our Team
 
-## cereal-hecker
-[![portfolio](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/cereal-hecker/)
+- [cereal-hecker](https://www.github.com/cereal-hecker)
 
-## Dksie09
-[![portfolio](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Dksie09/)
+- [Dksie09](https://www.github.com/Dksie09)
 
-## MaybeTarun
-[![portfolio](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/MaybeTarun/)
+- [MaybeTarun](https://www.github.com/MaybeTarun)
 
-## awxsoul
-[![portfolio](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/awxsoul/)
+- [awxsoul](https://www.github.com/awxsoul)
 
 
 
