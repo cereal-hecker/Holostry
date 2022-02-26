@@ -36,3 +36,14 @@ We needed to create 3D carbon compounds and then their holographic videos. A spe
 
 ## awxsoul
 [![portfolio](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/awxsoul/)
+
+
+
+## Some Screenshots of our app
+
+![App Screenshot](HolostryScreenshots/1.png)
+![App Screenshot](HolostryScreenshots/2.png)
+![App Screenshot](HolostryScreenshots/3.png)
+![App Screenshot](HolostryScreenshots/4.png)
+![App Screenshot](HolostryScreenshots/5.png)
+![App Screenshot](HolostryScreenshots/6.png)
