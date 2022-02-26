@@ -1,6 +1,6 @@
 ![Logo](images/logo.png)
 
-# CHEMISTRY OUT OF THIN AIR
+#                                                 CHEMISTRY OUT OF THIN AIR
 
 ## About Holostry
 
