@@ -29,7 +29,7 @@ We needed to create 3D carbon compounds and then their holographic videos. A spe
 
 - [Dksie09](https://www.github.com/Dksie09)
 
-- [MaybeTarun](https://www.github.com/MaybeTarun)
+- [MaybeTarun](https://linktr.ee/tarun2003)
 
 - [awxsoul](https://www.github.com/awxsoul)
 
