@@ -1,4 +1,7 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
+import 'home.dart';
 // ignore_for_file: prefer_const_constructors
 
 class NameScreen extends StatelessWidget {
@@ -72,7 +75,7 @@ class NameScreen extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => NameScreen(),
+                              builder: (context) => HomeScreen(),
                             ),
                           );
                         },
