@@ -1,9 +1,14 @@
-import 'package:flutter/cupertino.dart';
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
+import 'alcohol.dart';
+import 'haloalkane.dart';
+import 'other.dart';
+import 'unavailable.dart';
 //import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 // ignore_for_file: prefer_const_constructors
 
-class home extends StatelessWidget {
+class HomeScreen extends StatelessWidget {
   //const ({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -78,15 +83,15 @@ class home extends StatelessWidget {
                           margin: EdgeInsets.only(bottom: 20),
                           height: 70,
                           decoration: BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(20)),
-                              color: Colors.white,
-                              boxShadow: [
-                                BoxShadow(
-                                    offset: Offset(0, 10),
-                                    blurRadius: 50,
-                                    color: Colors.black38)
-                              ]),
+                            borderRadius: BorderRadius.all(Radius.circular(20)),
+                            color: Colors.white,
+                            boxShadow: const [
+                              BoxShadow(
+                                  offset: Offset(0, 10),
+                                  blurRadius: 50,
+                                  color: Colors.black38)
+                            ],
+                          ),
                           child: Row(
                             children: [
                               IconButton(
@@ -147,7 +152,14 @@ class home extends StatelessWidget {
               Row(
                 children: [
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => Haloalkanes(),
+                        ),
+                      );
+                    },
                     child: Container(
                       width: 180,
                       height: 100,
@@ -171,7 +183,14 @@ class home extends StatelessWidget {
                     ),
                   ),
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => Alcohols(),
+                        ),
+                      );
+                    },
                     child: Container(
                       width: 180,
                       height: 100,
@@ -199,7 +218,14 @@ class home extends StatelessWidget {
               Row(
                 children: [
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => Unavailable(),
+                        ),
+                      );
+                    },
                     child: Container(
                       width: 180,
                       height: 100,
@@ -223,7 +249,14 @@ class home extends StatelessWidget {
                     ),
                   ),
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => Others(),
+                        ),
+                      );
+                    },
                     child: Container(
                       width: 180,
                       height: 100,
