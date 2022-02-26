@@ -1,8 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 // ignore_for_file: prefer_const_constructors
 
-class name extends StatelessWidget {
+class NameScreen extends StatelessWidget {
   //const ({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -13,7 +12,7 @@ class name extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.deepPurple[200],
           title: Text(
-            'INFO',
+            'HOLOSTRY',
             style: TextStyle(
                 color: Colors.white,
                 fontFamily: 'LexendDeca',
@@ -22,8 +21,8 @@ class name extends StatelessWidget {
         ),
         backgroundColor: Colors.white,
         body: SafeArea(
-          child: Card(
-            margin: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
+          child: Container(
+            margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -69,8 +68,15 @@ class name extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(0.0),
                       child: FloatingActionButton(
-                        onPressed: () {},
-                        child: Text('enter'), //Icon(Icons.arrow_forward_ios),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => NameScreen(),
+                            ),
+                          );
+                        },
+                        child: Icon(Icons.arrow_forward_ios),
                         backgroundColor: Colors.purple[400],
                       ),
                     ),
