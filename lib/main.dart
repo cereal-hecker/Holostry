@@ -12,6 +12,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      home: HomePage(),
+    );
+  }
+}
+
+class HomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.lightBlue[50],
         body: SafeArea(
@@ -60,7 +70,14 @@ class MyApp extends StatelessWidget {
                           child: Padding(
                             padding: EdgeInsets.all(10.0),
                             child: FloatingActionButton(
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => NameScreen(),
+                                  ),
+                                );
+                              },
                               child: Icon(Icons.arrow_forward_ios),
                               backgroundColor: Colors.purple[400],
                             ),
@@ -77,3 +94,4 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
+}
