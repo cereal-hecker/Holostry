@@ -34,12 +34,26 @@ https://user-images.githubusercontent.com/91268240/181503884-e1a32686-a474-44e1-
 - [awxsoul](https://www.github.com/awxsoul)
 
 
-
 ## Some Screenshots of our app!
-[1stpage](https://user-images.githubusercontent.com/91268240/181506220-40d2835b-9534-429c-9d63-c4d3b882042f.png)
-![sign-up-page](https://user-images.githubusercontent.com/91268240/181506239-ac8b8e58-f92d-42c5-990e-f5317bd28a0d.png)
-![home-page](https://user-images.githubusercontent.com/9![compound-list](https://user-images.githubusercontent.com/91268240/181506257-97a38450-7534-44ad-989b-c64fde4e77e7.png)
-1268240/181506247-63a57c42-e5b5-45c4-9c23-133e86450445.png)
+<table>
+  <tr>
+    <td>First Screen Page</td>
+     <td>Signup page</td>
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/91268240/181507128-be60ed56-e0ef-484f-b61a-6d0d9c0e2a02.png"
+ width=270 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/91268240/181507303-1d89c17c-c9e3-4454-b329-9107bbc033ac.png" width=270 height=480></td>
+  </tr>
+    <tr>
+    <td>Home page</td>
+     <td>Compound list</td>
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/91268240/181507357-7547ef6f-f5c0-45e9-a670-86fc8ae2c0a7.png" width=270 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/91268240/181507483-aa833ce9-20a1-452a-a91c-ad21a049466c.png" width=270 height=480></td>
+  </tr>
+ </table>
 
 
 
