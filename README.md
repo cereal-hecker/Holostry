@@ -34,7 +34,7 @@ https://user-images.githubusercontent.com/91268240/181503884-e1a32686-a474-44e1-
 - [awxsoul](https://www.github.com/awxsoul)
 
 
-## Some Screenshots of our app!
+## App's UI
 <table>
   <tr>
     <td>First Screen Page</td>
