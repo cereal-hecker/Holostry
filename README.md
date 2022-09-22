@@ -4,7 +4,7 @@
 
 ## About Holostry
 
-An app which aims at revolutionizing education, was grounded up in 24 hours for India's most prestigious hackathon - MOZOHACK. It provides the user with a DIY hologram-projector video and gives them a library of Carbon Compound Holographic gifs. When the projector is placed at the middle, a 3D model is visible.
+An app which aims at revolutionizing education. It provides the user with a DIY hologram-projector video and gives them a library of Carbon Compound Holographic gifs. When the projector is placed at the middle, a 3D model is visible.
 
 ## The problem it solves
 
